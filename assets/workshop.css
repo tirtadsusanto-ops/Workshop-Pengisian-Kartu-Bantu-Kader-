@@ -1,0 +1,35 @@
+body::before{content:"Dr.dr.Tirta Darmawan Susanto, M.Kes."}
+.workshop-photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.workshop-photo img[hidden]{display:none}
+.workshop-hero h1{overflow-wrap:anywhere}
+.workshop-hint{margin:16px 0 0}
+.lane-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0}
+.lane-tabs .btn{display:flex;flex-direction:column;gap:1px}
+.lane-tabs .btn span{font-size:.78rem;font-weight:400}
+.workshop-list{padding-left:22px}
+.workshop-list li{margin:10px 0}
+.workshop-panel{overflow-wrap:anywhere}
+.workshop-panel summary{cursor:pointer;font-weight:700;color:var(--deep);margin:10px 0}
+.workshop-guided{margin:20px 0}
+.workshop-guided h3{margin:18px 0 6px}
+.workshop-metrics{grid-template-columns:repeat(auto-fit,minmax(85px,1fr))}
+.workshop-result{margin-top:22px}
+.workshop-result dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4px 14px;margin:10px 0}
+.workshop-result dt{font-weight:700}.workshop-result dd{margin:0}
+.workshop-result .report-actions{margin-bottom:18px}
+.workshop-history details{margin:12px 0;padding:12px 14px;background:#f5fbff;border:1px solid var(--line);border-radius:12px}
+.workshop-history details summary{margin:0}
+.workshop-preview{margin-top:24px}
+.workshop-preview figure{margin:18px 0}
+.workshop-preview figcaption{font-weight:700}
+.workshop-preview img{width:100%}
+.workshop-side .panel{display:block}
+.workshop-side .panel p{margin:12px 0}
+#workshop-errors:empty,#workshop-status:empty{display:none}
+#workshop-errors,#workshop-status{overflow-wrap:anywhere}
+input[type=date]{min-width:0}
+@media(max-width:640px){.workshop-result dl{display:block}.workshop-result dd{margin:0 0 9px}.workshop-metrics .metric strong{font-size:1.25rem}.workshop-preview figure{margin:12px 0}}
+.workshop-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));list-style:none;padding:0;gap:8px;text-align:center}
+.workshop-steps li{padding:10px 4px;border:1px solid var(--line);background:#f2f9ff;border-radius:10px;font-size:.82rem;line-height:1.35}
+.workshop-steps li span{display:block;font-size:1.35rem;color:var(--deep);font-weight:700}
+#guide-result{margin:12px 0 0}#guide-result:empty,#wa-log:empty{display:none}
